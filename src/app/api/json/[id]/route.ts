@@ -1,12 +1,9 @@
 import prisma from "@/lib/prisma";
 import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(request: NextRequest, { params }: {
-  params: {
-    id: string
-  }
-}) {
-  const { id } = params;
+export async function GET(req: NextRequest) {
+  const url = new URL(req.url);
+  const id = url.pathname.split('/').pop();
 
   try {
     const json = await prisma.jsonData.findUnique({
