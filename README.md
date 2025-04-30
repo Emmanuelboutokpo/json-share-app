@@ -1,18 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📋 Todo App with Next.js, Prisma & PostgreSQL
 
-## Getting Started
+A simple fullstack Todo app built with Next.js App Router, Tailwind CSS, Prisma ORM, and PostgreSQL.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- Create, read, update, and delete todos
+- User authentication (if applicable)
+- Responsive UI with Tailwind CSS
+- JSON data management and sharing (optional)
+- API routes via Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ Next.js (App Router)
+- 💅 Tailwind CSS
+- 🛢 Prisma + PostgreSQL
+- ☁️ Vercel (Deployment)
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/ton-utilisateur/todo-app.git
+cd todo-app
+npm install
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
